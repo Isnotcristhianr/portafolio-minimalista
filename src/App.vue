@@ -1,19 +1,22 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
+import Navbar from '@/components/layout/Navbar.vue'
 </script>
 
 <template>
+  <div class=" min-h-screen max-w-screen-lg mx-auto pl-4 pr-4 mt-5 mb-48 sm:mb-0">
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-
+    <Navbar />
     <div class="wrapper">
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
       </nav>
+
     </div>
   </header>
 
   <RouterView />
+  </div>
 </template>
