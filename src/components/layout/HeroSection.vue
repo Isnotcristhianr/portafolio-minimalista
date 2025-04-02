@@ -14,11 +14,11 @@ import { Icon } from "@iconify/vue";
       <div>
         <div class="md:text-center lg:text-start">
           <div class="indicator">
-            <span class="indicator-item badge badge-xs badge-success"></span>
+            <span class="indicator-item badge badge-xs badge-success rounded-xl"></span>
             <a
               href="https://www.linkedin.com/in/isnotcristhianr/"
               target="_blank"
-              class="btn btn-xs btn-block btn-success btn-outline mb-4"
+              class="btn btn-xs btn-block btn-success btn-outline mb-4 rounded-lg"
               >{{ $t('hero.disponible') }}</a
             >
           </div>
@@ -40,7 +40,7 @@ import { Icon } from "@iconify/vue";
               <Icon icon="mdi:email" width="24" height="24" />
               {{ $t('hero.actions.contact') }}
             </a>
-            <a href="/cv.pdf" download class="btn  btn-outline">
+            <a href="/resume/Cristhian Recalde Resume.pdf" download class="btn  btn-outline">
               <Icon icon="pepicons-pop:cv" width="24" height="24" />
                 {{ $t('hero.actions.cv') }}
             </a>

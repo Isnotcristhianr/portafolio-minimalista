@@ -20,6 +20,7 @@ const themeClass = computed(() => {
 
 //funcion para cambiar el idioma segun estado del toggle
 const toggleLanguage = () => {
+  currentLanguage.value = !currentLanguage.value;
   locale.value = currentLanguage.value ? "en" : "es";
 };
 
