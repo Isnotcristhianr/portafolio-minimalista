@@ -8,7 +8,7 @@ import { Icon } from "@iconify/vue";
       <img
         src="/imgs/me.png"
         alt="me"
-        class="hero-image max-w-60  md:max-w-60 lg:max-w-sm w-full h-auto mb-2 sm:mb-6 lg:mb-0"
+        class="hero-image max-w-60 md:max-w-60 lg:max-w-sm w-full h-auto mb-2 sm:mb-6 lg:mb-0"
         style="mask-image: linear-gradient(black 80%, transparent)"
       />
       <div>
