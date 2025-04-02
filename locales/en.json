@@ -3,5 +3,14 @@
         "home": "Home",
         "projects": "Projects",
         "contact": "Contact"
+    },
+    "hero":{
+        "title": "Hello, I'm ",
+        "disponible": "Available to work",
+        "description": "I'm a Software Engineer and Content Creator of programming from Ecuador, Ibarra 🇪🇨. Specialized in web and mobile development of impact",
+        "actions":{
+            "contact": "Contact me",
+            "cv": "Download CV"
+        }
     }
 }

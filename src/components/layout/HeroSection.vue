@@ -1,18 +1,58 @@
+<script setup>
+import { Icon } from "@iconify/vue";
+</script>
+
 <template>
-  <div class="hero bg-base-200 min-h-screen">
+  <div class="hero min-h-screen p-10 pl-10 pr-10">
     <div class="hero-content flex-col lg:flex-row">
       <img
-        src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
-        class="max-w-sm rounded-lg shadow-2xl"
+        src="/imgs/me.png"
+        alt="me"
+        class="hero-image max-w-full lg:max-w-sm md:max-w-60 sm:max-w-50 xs:max-w-20 w-full h-auto mb-6 lg:mb-0"
+        style="mask-image: linear-gradient(black 80%, transparent)"
       />
       <div>
-        <h1 class="text-5xl font-bold">Box Office News!</h1>
-        <p class="py-6">
-          Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-          excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a
-          id nisi.
-        </p>
-        <button class="btn btn-primary">Get Started</button>
+        <div class="md:text-center lg:text-start">
+          <div class="indicator">
+            <span class="indicator-item badge badge-xs badge-success"></span>
+            <a
+              href="https://www.linkedin.com/in/isnotcristhianr/"
+              target="_blank"
+              class="btn btn-xs btn-block btn-success btn-outline mb-4"
+              >{{ $t('hero.disponible') }}</a
+            >
+          </div>
+
+          <h1 class="text-5xl font-bold">
+            {{ $t('hero.title') }} <span class="text-blue-500">Cristhian</span>!
+          </h1>
+
+          <!-- presentacion -->
+          <p class="py-6 text-xl">
+            {{ $t('hero.description') }}
+          </p>
+          <!-- btns -->
+          <div class="flex flex-wrap gap-2 mt-4 justify-center">
+            <a
+              href="mailto:isnotcristhian@gmail.com"
+              class="btn  btn-outline"
+            >
+              <Icon icon="mdi:email" width="24" height="24" />
+              {{ $t('hero.actions.contact') }}
+            </a>
+            <a href="/cv.pdf" download class="btn  btn-outline">
+              <Icon icon="pepicons-pop:cv" width="24" height="24" />
+                {{ $t('hero.actions.cv') }}
+            </a>
+            <a
+              class="btn  btn-outline ml-2"
+              href="https://github.com/Isnotcristhianr"
+              target="_blank"
+            >
+              <Icon icon="mdi:github" width="24" height="24" />
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   </div>

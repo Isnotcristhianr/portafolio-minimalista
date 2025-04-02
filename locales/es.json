@@ -3,5 +3,14 @@
         "home": "Inicio",
         "projects": "Proyectos",
         "contact": "Contacto"
+    },
+    "hero":{
+        "title": "Hola, soy ",
+        "disponible": "Disponible para trabajar",
+        "description": "Ingeniero en Tecnologías de la Información, Desarrollador de Software y Creeador de contenido de programación de Ecuador, Ibarra 🇪🇨. Especializado en el desarrollo web y movil de impacto",
+        "actions":{
+            "contact": "Contáctame",
+            "cv": "Descargar CV"
+        }
     }
 }
