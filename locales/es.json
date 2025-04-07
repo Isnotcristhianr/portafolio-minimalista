@@ -1,22 +1,65 @@
 {
-    "navbar":{
-        "home": "Inicio",
-        "projects": "Proyectos",
-        "contact": "Contacto"
-    },
-    "hero":{
-        "title": "Hola, soy ",
-        "disponible": "Disponible para trabajar",
-        "description": "Ingeniero en Tecnologías de la Información, Desarrollador de Software y Creeador de contenido de programación de Ecuador, Ibarra 🇪🇨. Especializado en el desarrollo web y movil de impacto",
-        "actions":{
-            "contact": "Contáctame",
-            "cv": "Descargar CV"
-        }
-    },
-    "stats":{
-        "visitas": "Visitas",
-        "desde": "Desde",
-        "proyectos": "Proyectos",
-        "frameworks": "Lenguajes/Frameworks"
+  "navbar": {
+    "home": "Inicio",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Hola, soy ",
+    "disponible": "Disponible para trabajar",
+    "description": "Ingeniero en Tecnologías de la Información, Desarrollador de Software y Creeador de contenido de programación de Ecuador, Ibarra 🇪🇨. Especializado en el desarrollo web y movil de impacto",
+    "actions": {
+      "contact": "Contáctame",
+      "cv": "Descargar CV"
     }
+  },
+  "stats": {
+    "visitas": "Visitas",
+    "desde": "Desde",
+    "proyectos": "Proyectos",
+    "frameworks": "Lenguajes/Frameworks"
+  },
+  "timeline": {
+    "section": {
+      "title": "Trayectoria"
+    },
+    "experience": {
+      "1": {
+        "title": "Desarrollador de Full Stack Flutter",
+        "company": "NeaterNotes",
+        "date": "2024 - Presente",
+        "description": "Experiencia en el diseño e implementación de soluciones centradas en el usuario. Enfoque de desarrollo, centrado en el usuario, su adhesión a prácticas ágiles y  enfoque en la escalabilidad, garantizan que NeaterNotes ofrezca la experiencia ideal a sus usuarios.",
+        "actions": {
+          "view": "Ver más"
+        }
+      },
+      "2": {
+        "title": "Desarrollador Mobile",
+        "company": "SwapMe",
+        "date": "2023 - 2024",
+        "description": "Desarrollo de aplicaciones moviles con tecnologías híbridas y nativas. Implementación de servicios RESTful, Auth0, Storage. Integración de servicios de terceros como Firebase y despliegue en tiendas de aplicaciones (Google Play Store, Apple Store)",
+        "actions": {
+          "view": "Ver más"
+        }
+      },
+      "3": {
+        "title": "CTI - UX/UI Designer - Desarrollador Web",
+        "company": "Agroindustrias Equatorial",
+        "date": "2021 - Presente",
+        "description": "Diseño de interfaces de usuario y experiencia de usuario para aplicaciones web y moviles. Creación de prototipos y pruebas de usabilidad. Implementación de diseño responsivo y accesibilidad",
+        "actions": {
+          "view": "Ver más"
+        }
+      },
+      "4": {
+        "title": "Creador de Contenido - Social Media",
+        "company": "Vreech, Hood.code",
+        "date": "2020 - 2021",
+        "description": "Creación de contenido educativo en programación y desarrollo de software. Tutoriales, cursos, tips y trucos para la comunidad de desarrolladores.",
+        "actions": {
+          "view": "Ver más"
+        }
+      }
+    }
+  }
 }

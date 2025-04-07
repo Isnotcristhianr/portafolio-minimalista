@@ -34,3 +34,8 @@ coverage
 ./src/config/firebaseConfig.js
 .firebaseConfig.js
 
+# Environment variables
+.env
+.env.local
+.env.*.local
+

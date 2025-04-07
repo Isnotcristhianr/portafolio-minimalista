@@ -18,5 +18,48 @@
         "desde": "Since",
         "proyectos": "Projects",
         "frameworks": "Languages/Frameworks"
-    }
+    },
+    "timeline": {
+        "section": {
+          "title": "Timeline"
+        },
+        "experience": {
+          "1": {
+            "title": "Full Stack Flutter Developer",
+            "company": "NeaterNotes",
+            "date": "2024 - Present",
+            "description": "Experience in designing and implementing user-centered solutions. Development focus, user-centered, adherence to agile practices, and focus on scalability ensure NeaterNotes offers the ideal experience to its users.",
+            "actions": {
+              "view": "View more"
+            }
+          },
+          "2": {
+            "title": "Mobile Developer",
+            "company": "SwapMe",
+            "date": "2023 - 2024",
+            "description": "Development of mobile applications with hybrid and native technologies. Implementation of RESTful services, Auth0, Storage. Integration of third-party services like Firebase and deployment in app stores (Google Play Store, Apple Store)",
+            "actions": {
+              "view": "View more"
+            }
+          },
+          "3": {
+            "title": "CTI - UX/UI Designer - Web Developer",
+            "company": "Agroindustrias Equatorial",
+            "date": "2021 - Present",
+            "description": "Design of user interfaces and user experience for web and mobile applications. Creation of prototypes and usability tests. Implementation of responsive design and accessibility",
+            "actions": {
+              "view": "View more"
+            }
+          },
+          "4": {
+            "title": "Content Creator - Social Media",
+            "company": "Vreech, Hood.code",
+            "date": "2020 - 2021",
+            "description": "Creation of educational content in programming and software development. Tutorials, courses, tips, and tricks for the developer community.",
+            "actions": {
+              "view": "View more"
+            }
+          }
+        }
+      }
 }
