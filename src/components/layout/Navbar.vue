@@ -33,15 +33,14 @@ const toggleTheme = () => {
 
 <template>
   <div
-    class="navbar  shadow-sm rounded-full z-10 top-0
+    class="navbar shadow-sm rounded-full z-10 top-0
      backdrop-blur-sm left-0 right-0 fixed w-full
-      max-w-screen-md mx-auto pl-4 pr-4 mt-5 mb-48 sm:mb-0
-      dark:shadow-blue-50 dark:drop-shadow-xs
-      "
+      max-w-screen-md mx-auto px-2 mt-2 mb-2
+      dark:shadow-blue-50 dark:drop-shadow-xs min-h-0 py-1"
   >
     <div class="navbar-start">
       <div class="dropdown">
-        <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+        <div tabindex="0" role="button" class="btn btn-ghost btn-circle btn-sm">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="h-5 w-5"
@@ -59,7 +58,7 @@ const toggleTheme = () => {
         </div>
         <ul
           tabindex="0"
-          class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+          class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[100] mt-3 w-52 p-2 shadow"
         >
           <li>
             <a>{{ t("navbar.home") }}</a>
@@ -74,18 +73,16 @@ const toggleTheme = () => {
       </div>
     </div>
     <div class="navbar-center">
-      <a class="btn btn-ghost text-xl">IsnotCristhian</a>
+      <a class="btn btn-ghost btn-sm text-lg p-0">IsnotCristhian</a>
     </div>
     <div class="navbar-end">
       <!-- theme toggle -->
-      <div class="btn btn-ghost">
+      <div class="btn btn-ghost btn-sm">
         <label class="swap swap-rotate">
-          <!-- this hidden checkbox controls the state -->
           <input type="checkbox" class="theme-controller" @change="toggleTheme" />
-
           <!-- sun icon -->
           <svg
-            class="swap-off h-6 w-6 fill-current"
+            class="swap-off h-5 w-5 fill-current"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
           >
@@ -93,10 +90,9 @@ const toggleTheme = () => {
               d="M5.64,17l-.71.71a1,1,0,0,0,0,1.41,1,1,0,0,0,1.41,0l.71-.71A1,1,0,0,0,5.64,17ZM5,12a1,1,0,0,0-1-1H3a1,1,0,0,0,0,2H4A1,1,0,0,0,5,12Zm7-7a1,1,0,0,0,1-1V3a1,1,0,0,0-2,0V4A1,1,0,0,0,12,5ZM5.64,7.05a1,1,0,0,0,.7.29,1,1,0,0,0,.71-.29,1,1,0,0,0,0-1.41l-.71-.71A1,1,0,0,0,4.93,6.34Zm12,.29a1,1,0,0,0,.7-.29l.71-.71a1,1,0,1,0-1.41-1.41L17,5.64a1,1,0,0,0,0,1.41A1,1,0,0,0,17.66,7.34ZM21,11H20a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2Zm-9,8a1,1,0,0,0-1,1v1a1,1,0,0,0,2,0V20A1,1,0,0,0,12,19ZM18.36,17A1,1,0,0,0,17,18.36l.71.71a1,1,0,0,0,1.41,0,1,1,0,0,0,0-1.41ZM12,6.5A5.5,5.5,0,1,0,17.5,12,5.51,5.51,0,0,0,12,6.5Zm0,9A3.5,3.5,0,1,1,15.5,12,3.5,3.5,0,0,1,12,15.5Z"
             />
           </svg>
-
           <!-- moon icon -->
           <svg
-            class="swap-on h-6 w-6 fill-current"
+            class="swap-on h-5 w-5 fill-current"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
           >
@@ -107,16 +103,16 @@ const toggleTheme = () => {
         </label>
       </div>
       <!-- toggle idioma -->
-      <div class="flex items-center gap-2 btn btn-ghost">
-        <span>🇺🇸</span>
+      <div class="flex items-center gap-1 btn btn-ghost btn-sm p-0">
+        <span class="text-sm">🇺🇸</span>
         <input
           type="checkbox"
-          class="toggle toggle-sm language-toggle"
+          class="toggle toggle-xs language-toggle"
           id="language-toggle"
           checked="true"
           @change="toggleLanguage"
         />
-        <span>🇪🇸</span>
+        <span class="text-sm">🇪🇸</span>
       </div>
     </div>
   </div>

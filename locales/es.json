@@ -61,5 +61,10 @@
         }
       }
     }
+  },
+  "projects": {
+    "section": {
+      "title": "Proyectos"
+    }
   }
 }

@@ -29,9 +29,7 @@ const props = defineProps({
 </script>
 
 <template>
-  <div class="pl-4 pr-4 p-5">
-    <ol class="relative border-s border-gray-200 dark:border-gray-700">
-      <li class="mb-10 ms-4">
+  <li class="mb-10 ms-4">
         <div class="flex flex-col sm:flex-row sm:items-start">
           <div class="flex-shrink-0 w-56">
             <div
@@ -80,6 +78,4 @@ const props = defineProps({
           </div>
         </div>
       </li>
-    </ol>
-  </div>
 </template>
