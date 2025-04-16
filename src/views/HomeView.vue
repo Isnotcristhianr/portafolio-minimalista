@@ -1,4 +1,6 @@
 <script setup>
+import { Icon } from "@iconify/vue";
+import { RouterLink } from "vue-router";
 //components
 import HeroSection from "@/components/layout/HeroSection.vue";
 import Stats from "@/components/Stats.vue";
@@ -136,6 +138,13 @@ import ProyectSection from "@/components/ProyectSection.vue";
           
         </div>
       </section>
+
+      <!-- ver mas -->
+      <div class="flex justify-center">
+        <RouterLink to="/proyects" class="btn btn-secondary rounded">
+          Ver más <Icon icon="pajamas:arrow-right" />
+        </RouterLink>
+      </div>
     </Sections>
   </main>
 </template>
