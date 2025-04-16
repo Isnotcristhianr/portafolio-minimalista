@@ -61,78 +61,79 @@ import ProyectSection from "@/components/ProyectSection.vue";
           <div class="card">
             <div class="container">
               <ProyectSection
-                title="NeaterNotes"
-                description="NeaterNotes is a note-taking app that allows you to create, edit, and delete notes. It is a simple and easy-to-use app that is designed to help you stay organized and productive."
-                :technologies="['VueJs', 'Tailwind', 'Firebase', 'Vercel']"
-                imgUrl="/proyectos/1.webp"
-                altText="NeaterNotes"
-                url="https://neaternotes.com"
+                :title="$t('projects.proy.0.title')"
+                :description="$t('projects.proy.0.description')"
+                :technologies="['Flutter', 'Dart', 'Firebase', 'Playstore']"
+                imgUrl="/proyectos/0.webp"
+                altText="ChullaCash"
+                url="https://play.google.com/store/apps/details?id=com.chullacash.app"
+                type="app"
+                githubUrl="https://github.com/Isnotcristhianr/ChullaCash-App"
+                previewUrl="https://play.google.com/store/apps/details?id=com.chullacash.app"
+              />
+            </div>
+          </div>
+          <div class="card">
+            <div class="container">
+              <ProyectSection
+                :title="$t('projects.proy.26.title')"
+                :description="$t('projects.proy.26.description')"
+                :technologies="['VueJs', 'Tailwind', 'Supabase', 'Vercel']"
+                imgUrl="/proyectos/26.webp"
+                altText="Binesai"
+                url="https://binesai.com"
                 type="web"
-                githubUrl="https://github.com/neaternotes/neaternotes"
-                previewUrl="https://neaternotes.com"
+                githubUrl="https://github.com/Isnotcristhianr/binesai"
+                previewUrl="https://binesai.com"
               />
             </div>
           </div>
           <div class="card">
             <div class="container">
               <ProyectSection
-                title="NeaterNotes"
-            description="NeaterNotes is a note-taking app that allows you to create, edit, and delete notes. It is a simple and easy-to-use app that is designed to help you stay organized and productive."
-            :technologies="['Playstore', 'Tailwind', 'Firebase', 'Vercel']"
-            imgUrl="/proyectos/1.webp"
-                altText="NeaterNotes"
-                url="https://neaternotes.com"
-                type="web"
-                githubUrl="https://github.com/neaternotes/neaternotes"
-                previewUrl="https://neaternotes.com"
-              />
-            </div>
-          </div>
-          <div class="card">
-            <div class="container">
-              <ProyectSection
-                title="NeaterNotes"
-            description="NeaterNotes is a note-taking app that allows you to create, edit, and delete notes. It is a simple and easy-to-use app that is designed to help you stay organized and productive."
-            :technologies="['VueJs', 'Tailwind', 'Firebase', 'Vercel']"
-            imgUrl="/proyectos/1.webp"
-            altText="NeaterNotes"
-            url="https://neaternotes.com"
-            type="web"
-            githubUrl="https://github.com/neaternotes/neaternotes"
-            previewUrl="https://neaternotes.com"
-              />
-            </div>
-          </div>
-          <div class="card">
-            <div class="container">
-              <ProyectSection
-                title="NeaterNotes"
-                description="NeaterNotes is a note-taking app that allows you to create, edit, and delete notes. It is a simple and easy-to-use app that is designed to help you stay organized and productive."
-                :technologies="['VueJs', 'Tailwind', 'Firebase', 'Vercel']"
+                :title="$t('projects.proy.1.title')"
+                :description="$t('projects.proy.1.description')"
+                :technologies="['Flutter', 'Dart', 'Firebase', 'Playstore', 'Appstore']"
                 imgUrl="/proyectos/1.webp"
-                altText="NeaterNotes"
-            url="https://neaternotes.com"
-            type="web"
-            githubUrl="https://github.com/neaternotes/neaternotes"
-                previewUrl="https://neaternotes.com"
+                altText="Swapme"
+                url="https://play.google.com/store/apps/details?id=com.company.swapme"
+                type="app"
+                githubUrl="https://github.com/Isnotcristhianr/SwapMe---Code-0"
+                previewUrl="https://play.google.com/store/apps/details?id=com.company.swapme"
               />
             </div>
           </div>
           <div class="card">
             <div class="container">
               <ProyectSection
-                title="NeaterNotes"
-                description="NeaterNotes is a note-taking app that allows you to create, edit, and delete notes. It is a simple and easy-to-use app that is designed to help you stay organized and productive."
-                :technologies="['VueJs', 'Tailwind', 'Firebase', 'Vercel']"
-                imgUrl="/proyectos/1.webp"
-            altText="NeaterNotes"
-                url="https://neaternotes.com"
+                :title="$t('projects.proy.2.title')"
+                :description="$t('projects.proy.2.description')"
+                :technologies="['Figma', 'AdobeXd', 'Tailwind', 'Vercel']"
+                imgUrl="/proyectos/2.webp"
+                altText="Nike App"
+                url="https://github.com/Isnotcristhianr/Desgin-Nike-App"
                 type="web"
-                githubUrl="https://github.com/neaternotes/neaternotes"
-                previewUrl="https://neaternotes.com"
+                githubUrl="https://github.com/Isnotcristhianr/Desgin-Nike-App"
+                previewUrl="https://github.com/Isnotcristhianr/Desgin-Nike-App"
               />
             </div>
           </div>
+          <div class="card">
+            <div class="container">
+              <ProyectSection
+                :title="$t('projects.proy.14.title')"
+                :description="$t('projects.proy.14.description')"
+                :technologies="['Php', 'Bootstrap', 'HighCharts', 'Coidegniter']"
+                imgUrl="/proyectos/14.webp"
+                  altText="PUCE-I"
+                url="https://github.com/Isnotcristhianr/SistemaGestionDocumental"
+                type="web"
+                githubUrl="https://github.com/Isnotcristhianr/SistemaGestionDocumental"
+                previewUrl="https://github.com/Isnotcristhianr/SistemaGestionDocumental"
+              />
+            </div>
+          </div>
+          
         </div>
       </section>
     </Sections>

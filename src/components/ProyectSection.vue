@@ -72,6 +72,8 @@ const techIcons = {
   Meta: "logos:meta-icon",
   Instagram: "logos:instagram-icon",
   Facebook: "logos:facebook",
+  Supabase: "mdi:database",
+  Appstore: "mdi:apple",
 };
 </script>
 

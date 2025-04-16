@@ -65,6 +65,116 @@
   "projects": {
     "section": {
       "title": "Projects"
+    },
+    "proy": {
+      "0": {
+        "title": "Chulla Cash - Finance App",
+        "description": "Application for personal finance management. Implementation of authentication services, storage, etc. Deployment on Google Play Store"
+      },
+      "1": {
+        "title": "Swapme - Clothing Exchange App",
+        "description": "Mobile application for clothing exchange. Implementation of authentication services, storage, etc. Deployment on Google Play Store app stores"
+      },
+      "2":{
+        "title": "UX/UI Design - Nike App",
+        "description": "User interface and user experience design for the Nike application. Creation of prototypes and usability testing. Implementation of responsive and accessible design."
+      },
+      "3":{
+        "title": "Nike App Redesign - UI/UX",
+        "description": "Redesign of the Nike application. Implementation of responsive and accessible design. Creation of prototypes and usability testing."
+      },
+      "4":{
+        "title": "Imbabura Candidates Web",
+        "description": "Voting system for the province of Imbabura. Implementation of voting by candidates, vote storage, etc. Web deployment"
+      },
+      "5":{
+        "title": "Diigo - Landing Page",
+        "description": "Landing Page for the Diigo application. Implementation of contact form, email storage, etc. Web deployment"
+      },
+      "6": {
+        "title": "Spiccy - Healthy Food Recipes",
+        "description": "Healthy food recipes website. Implementation of contact form, recipe storage, etc. Web deployment"
+      },
+      "7": {
+        "title": "WalkiDogs - Pet Walking WebApp",
+        "description": "Web application for pet walking. Implementation of authentication services, storage, etc. Web deployment"
+      },
+      "8": {
+        "title": "GifSearch - Gif API",
+        "description": "Gif search application. Implementation of gif search, gif storage, etc. Deployment on Vercel web"
+      },
+      "9": {
+        "title": "CryptoPricer - Cryptocurrency API",
+        "description": "Cryptocurrency pricing application. Implementation of cryptocurrency search, price storage, etc. Deployment on Vercel web"
+      },
+      "10":{
+        "title": "Pinia Store - Ecommerce",
+        "description": "Online technology products store. Implementation of shopping cart, product search, etc. Deployment on Vercel"
+      },
+      "11":{
+        "title": "Laravel Hotel - Booking System",
+        "description": "Hotel room booking system. Implementation of reservations, room search, etc. Deployment on local server"
+      },
+      "12":{
+        "title": "Cielo Verde Spanish School",
+        "description": "Student management system for Cielo Verde Spanish school. Implementation of enrollments, payments, etc. Deployment on web servers"
+      },
+      "13":{
+        "title": "Hotel MongoDB",
+        "description": "Hotel room booking system. Implementation of reservations, room search, etc. Deployment on local server"
+      },
+      "14": {
+        "title": "PUCE-I Document Management",
+        "description": "Document management system for the Pontifical Catholic University of Ecuador - Ibarra. Implementation of reports for enrolled and graduated students from 1976 to 2023. Deployment on local servers"
+      },
+      "15":{
+        "title": "Pokedex - Pokemon API",
+        "description": "Pokemon search application. Implementation of pokemon search, pokemon storage, etc. Web deployment"
+      },
+      "16": {
+        "title": "Blog - Ideas and Trends",
+        "description": "Blog about ideas and trends on any topic. Implementation of Authentication, comments and image upload. Deployment on FirebaseHosting"
+      },
+      "17": {
+        "title": "GDG Guayaquil - UX/UI Design",
+        "description": "User interface and user experience design for the Google Developers Group Guayaquil community. Creation of prototypes and usability testing. Implementation of responsive design and accessibility."
+      },
+      "18": {
+        "title": "Mobile App Backend",
+        "description": "Exchange application. Implementation of authentication services, storage, etc. Deployment on Firebase"
+      },
+      "19": {
+        "title": "Firebase Web Hosting",
+        "description": "Web application hosting on Firebase. Implementation of authentication services, storage, etc. Deployment on Firebase"
+      },
+      "20": {
+        "title": "Creatibot - Registration Web",
+        "description": "Registration website. Implementation of registration services and forms. Local deployment"
+      },
+      "21": {
+        "title": "Instagram Vintage Filter",
+        "description": "Instagram image filter, implementation of image processing tools. Deployment on Instagram and Facebook"
+      },
+      "22": {
+        "title": "Instagram Indie Filter",
+        "description": "Instagram image filter, implementation of image processing tools. Deployment on Instagram and Facebook"
+      },
+      "23": {
+        "title": "Instagram Glitch Filter",
+        "description": "Instagram image filter, implementation of image processing tools. Deployment on Instagram and Facebook"
+      },
+      "24": {
+        "title": "Instagram Astigma Filter",
+        "description": "Instagram image filter, implementation of image processing tools. Deployment on Instagram and Facebook"
+      },
+      "25": {
+        "title": "Venturex - International Trade Platform",
+        "description": "Statistical queries of products from different countries. Implementation of global data searches. Deployment on Vercel"
+      },
+      "26": {
+        "title": "Binesai - Art Biennial Web",
+        "description": "Web page of the San Antonio de Ibarra Art Biennial 2025. Implementation of contact form, data storage, etc. Deployment on web"
+      }
     }
   }
 }
