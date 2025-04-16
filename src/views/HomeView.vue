@@ -4,6 +4,7 @@ import HeroSection from "@/components/layout/HeroSection.vue";
 import Stats from "@/components/Stats.vue";
 import TimeLine from "@/components/TimeLine.vue";
 import Sections from "@/components/Sections.vue";
+import ProyectSection from "@/components/ProyectSection.vue";
 </script>
 
 <template>
@@ -54,7 +55,86 @@ import Sections from "@/components/Sections.vue";
       <template #title>
         <h2>{{ $t("projects.section.title") }}</h2>
       </template>
-      
+
+      <section>
+        <div class="stack-cards">
+          <div class="card">
+            <div class="container">
+              <ProyectSection
+                title="NeaterNotes"
+                description="NeaterNotes is a note-taking app that allows you to create, edit, and delete notes. It is a simple and easy-to-use app that is designed to help you stay organized and productive."
+                :technologies="['VueJs', 'Tailwind', 'Firebase', 'Vercel']"
+                imgUrl="/proyectos/1.webp"
+                altText="NeaterNotes"
+                url="https://neaternotes.com"
+                type="web"
+                githubUrl="https://github.com/neaternotes/neaternotes"
+                previewUrl="https://neaternotes.com"
+              />
+            </div>
+          </div>
+          <div class="card">
+            <div class="container">
+              <ProyectSection
+                title="NeaterNotes"
+            description="NeaterNotes is a note-taking app that allows you to create, edit, and delete notes. It is a simple and easy-to-use app that is designed to help you stay organized and productive."
+            :technologies="['Playstore', 'Tailwind', 'Firebase', 'Vercel']"
+            imgUrl="/proyectos/1.webp"
+                altText="NeaterNotes"
+                url="https://neaternotes.com"
+                type="web"
+                githubUrl="https://github.com/neaternotes/neaternotes"
+                previewUrl="https://neaternotes.com"
+              />
+            </div>
+          </div>
+          <div class="card">
+            <div class="container">
+              <ProyectSection
+                title="NeaterNotes"
+            description="NeaterNotes is a note-taking app that allows you to create, edit, and delete notes. It is a simple and easy-to-use app that is designed to help you stay organized and productive."
+            :technologies="['VueJs', 'Tailwind', 'Firebase', 'Vercel']"
+            imgUrl="/proyectos/1.webp"
+            altText="NeaterNotes"
+            url="https://neaternotes.com"
+            type="web"
+            githubUrl="https://github.com/neaternotes/neaternotes"
+            previewUrl="https://neaternotes.com"
+              />
+            </div>
+          </div>
+          <div class="card">
+            <div class="container">
+              <ProyectSection
+                title="NeaterNotes"
+                description="NeaterNotes is a note-taking app that allows you to create, edit, and delete notes. It is a simple and easy-to-use app that is designed to help you stay organized and productive."
+                :technologies="['VueJs', 'Tailwind', 'Firebase', 'Vercel']"
+                imgUrl="/proyectos/1.webp"
+                altText="NeaterNotes"
+            url="https://neaternotes.com"
+            type="web"
+            githubUrl="https://github.com/neaternotes/neaternotes"
+                previewUrl="https://neaternotes.com"
+              />
+            </div>
+          </div>
+          <div class="card">
+            <div class="container">
+              <ProyectSection
+                title="NeaterNotes"
+                description="NeaterNotes is a note-taking app that allows you to create, edit, and delete notes. It is a simple and easy-to-use app that is designed to help you stay organized and productive."
+                :technologies="['VueJs', 'Tailwind', 'Firebase', 'Vercel']"
+                imgUrl="/proyectos/1.webp"
+            altText="NeaterNotes"
+                url="https://neaternotes.com"
+                type="web"
+                githubUrl="https://github.com/neaternotes/neaternotes"
+                previewUrl="https://neaternotes.com"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
     </Sections>
   </main>
 </template>
