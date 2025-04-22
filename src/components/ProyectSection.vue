@@ -24,15 +24,15 @@ const props = defineProps({
   },
   githubUrl: {
     type: String,
-    required: true,
+    required: false,
   },
   previewUrl: {
     type: String,
-    required: true,
+    required: false,
   },
   type: {
     type: String,
-    required: true,
+    required: false,
   },
 });
 

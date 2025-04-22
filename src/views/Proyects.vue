@@ -105,7 +105,7 @@ import ProyectSection from "@/components/ProyectSection.vue";
       previewUrl="https://giftsearch-l2r4fdbzd-isnotcristhianrs-projects.vercel.app/"
       type="web"
     />
-    <ProyectsDev
+    <ProyectSection
       :title="$t('projects.proy.9.title')"
       :description="$t('projects.proy.9.description')"
       :technologies="['VueJs', 'Tailwind', 'Vercel']"

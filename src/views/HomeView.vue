@@ -7,6 +7,7 @@ import Stats from "@/components/Stats.vue";
 import TimeLine from "@/components/TimeLine.vue";
 import Sections from "@/components/Sections.vue";
 import ProyectSection from "@/components/ProyectSection.vue";
+import About from "@/components/About.vue";
 </script>
 
 <template>
@@ -145,6 +146,14 @@ import ProyectSection from "@/components/ProyectSection.vue";
           Ver más <Icon icon="pajamas:arrow-right" />
         </RouterLink>
       </div>
+    </Sections>
+
+    <!-- About me -->
+    <Sections icon="pajamas:work" title="About me">
+      <template #title>
+        <h2>{{ $t("about.section.title") }}</h2>
+      </template>
+      <About />
     </Sections>
   </main>
 </template>

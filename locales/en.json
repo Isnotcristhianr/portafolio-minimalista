@@ -176,5 +176,42 @@
         "description": "Web page of the San Antonio de Ibarra Art Biennial 2025. Implementation of contact form, data storage, etc. Deployment on web"
       }
     }
+  },
+  "about": {
+    "section": {
+      "title": "About me"
+    },
+    "me": {
+      "1": {
+        "p1": "My name is",
+        "p1on": "Cristhian Recalde",
+        "p2": " and I am a",
+        "p2on": " Web/Mobile Software Developer",
+        "p3": " , also known as",
+        "p3on": "IsnotCristhian",
+        "p4": " this reflects my passion for growing as a professional in the development industry through content creation."
+      },
+      "2": {
+        "p1": "Since I started my professional career, I've had the opportunity to work on",
+        "p1on": "various projects and companies"
+      },
+      "3": {
+        "p1": "Some of my achievements include winning",
+        "p1on": "an Honorable Mention in the TuApp2023 Tournament with my startup SwapMe",
+        "p2": " currently, I continue learning and improving, and I am part of the Google Developer community in Quito."
+      },
+      "4": {
+        "p1": "As a content creator, I have my YouTube channel in the",
+        "p1on": "Software & Development",
+        "p2": " category. My goal is to reduce the digital divide in my country",
+        "p2on": " Ecuador 🇪🇨 ",
+        "p3": "and contribute to improving the knowledge that many do not have."
+      },
+      "5": {
+        "p1": "I am always looking for new challenges and opportunities to grow professionally. If you have a project in mind or just want to chat, feel free to",
+        "p1on": "contact me",
+        "p2": ". I will be happy to hear from you."
+      }
+    }
   }
 }

@@ -22,7 +22,7 @@ const props = defineProps({
         required: false,
   },
   actions: {
-    type: Object,
+    type: String,
     required: false,
   },
 });
