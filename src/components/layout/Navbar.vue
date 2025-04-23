@@ -67,7 +67,7 @@ const toggleTheme = () => {
             <router-link to="/proyects">{{ t("navbar.projects") }}</router-link>
           </li>
           <li>
-            <a>{{ t("navbar.contact") }}</a>
+            <router-link to="/certificate">{{ t("navbar.certificate") }}</router-link>
           </li>
         </ul>
       </div>

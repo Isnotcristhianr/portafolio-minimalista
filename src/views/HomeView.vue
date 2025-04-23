@@ -8,6 +8,7 @@ import TimeLine from "@/components/TimeLine.vue";
 import Sections from "@/components/Sections.vue";
 import ProyectSection from "@/components/ProyectSection.vue";
 import About from "@/components/About.vue";
+import Certificates from "@/components/Certificates.vue";
 </script>
 
 <template>
@@ -96,7 +97,13 @@ import About from "@/components/About.vue";
               <ProyectSection
                 :title="$t('projects.proy.1.title')"
                 :description="$t('projects.proy.1.description')"
-                :technologies="['Flutter', 'Dart', 'Firebase', 'Playstore', 'Appstore']"
+                :technologies="[
+                  'Flutter',
+                  'Dart',
+                  'Firebase',
+                  'Playstore',
+                  'Appstore',
+                ]"
                 imgUrl="/proyectos/1.webp"
                 altText="Swapme"
                 url="https://play.google.com/store/apps/details?id=com.company.swapme"
@@ -126,9 +133,14 @@ import About from "@/components/About.vue";
               <ProyectSection
                 :title="$t('projects.proy.14.title')"
                 :description="$t('projects.proy.14.description')"
-                :technologies="['Php', 'Bootstrap', 'HighCharts', 'Coidegniter']"
+                :technologies="[
+                  'Php',
+                  'Bootstrap',
+                  'HighCharts',
+                  'Coidegniter',
+                ]"
                 imgUrl="/proyectos/14.webp"
-                  altText="PUCE-I"
+                altText="PUCE-I"
                 url="https://github.com/Isnotcristhianr/SistemaGestionDocumental"
                 type="web"
                 githubUrl="https://github.com/Isnotcristhianr/SistemaGestionDocumental"
@@ -136,7 +148,6 @@ import About from "@/components/About.vue";
               />
             </div>
           </div>
-          
         </div>
       </section>
 
@@ -149,11 +160,50 @@ import About from "@/components/About.vue";
     </Sections>
 
     <!-- About me -->
-    <Sections icon="pajamas:work" title="About me">
+    <Sections icon="heroicons:user-circle-solid" title="About me">
       <template #title>
         <h2>{{ $t("about.section.title") }}</h2>
       </template>
       <About />
+    </Sections>
+
+    <!-- Certifications -->
+    <Sections icon="heroicons-solid:academic-cap" title="Certifications">
+      <template #title>
+        <h2>{{ $t("certifications.section.title") }}</h2>
+      </template>
+      <Certificates
+        name="Microsoft Certified AZ-900: Azure AI Fundamentals"
+        icon="logos:microsoft-icon"
+        link="https://learn.microsoft.com/api/credentials/share/es-es/CristhianRecalde-4665/10D25DF28F252BB7?sharingId=A2098A03866B3733"
+      />
+      <Certificates
+        name="Development Web II"
+        icon="logos:google-icon"
+        link="https://drive.google.com/file/d/1Pg0lJnZtYOdj2Rv4q5SZsnA9ieFsBtm2/view?usp=sharing"
+      />
+      <Certificates
+        name="Diseño Wev con HTML5 y CSS3"
+        icon="cbi:movistar-plus"
+        link="https://drive.google.com/file/d/1s5PNJ8tnrnGJX66TqLs8ZWoCDnfUwMpD/view?usp=sharing"
+      />
+      <Certificates
+        name="Administración Windows Server 2016"
+        icon="logos:udemy-icon"
+        link="https://drive.google.com/file/d/17DjdcP5cJCeFaJCk7IUUrXv-An8SK59B/view?usp=sharing"
+      />
+      <Certificates
+        name="VueJs 3 - Desde 0"
+        icon="logos:udemy-icon"
+        link="https://drive.google.com/file/d/1SSqaYjPIGwO9LCkHOwUOZB4r7Yh6OIYE/view?usp=sharing"
+      />
+
+      <!-- ver mas -->
+      <div class="flex justify-center">
+        <RouterLink to="/certificate" class="btn btn-secondary rounded">
+          Ver más <Icon icon="pajamas:arrow-right" />
+        </RouterLink>
+      </div>
     </Sections>
   </main>
 </template>

@@ -2,7 +2,7 @@
   "navbar": {
     "home": "Home",
     "projects": "Projects",
-    "contact": "Contact"
+    "certificate": "Certificates"
   },
   "hero": {
     "title": "Hello, I'm ",
@@ -212,6 +212,11 @@
         "p1on": "contact me",
         "p2": ". I will be happy to hear from you."
       }
+    }
+  },
+  "certifications": {
+    "section": {
+      "title": "Certifications"
     }
   }
 }
