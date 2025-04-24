@@ -9,6 +9,7 @@ import Sections from "@/components/Sections.vue";
 import ProyectSection from "@/components/ProyectSection.vue";
 import About from "@/components/About.vue";
 import Certificates from "@/components/Certificates.vue";
+import Contact from "@/components/Contact.vue";
 </script>
 
 <template>
@@ -154,7 +155,7 @@ import Certificates from "@/components/Certificates.vue";
       <!-- ver mas -->
       <div class="flex justify-center">
         <RouterLink to="/proyects" class="btn btn-secondary rounded">
-          Ver más <Icon icon="pajamas:arrow-right" />
+          {{ $t("more.text") }} <Icon icon="pajamas:arrow-right" />
         </RouterLink>
       </div>
     </Sections>
@@ -201,9 +202,17 @@ import Certificates from "@/components/Certificates.vue";
       <!-- ver mas -->
       <div class="flex justify-center">
         <RouterLink to="/certificate" class="btn btn-secondary rounded">
-          Ver más <Icon icon="pajamas:arrow-right" />
+          {{ $t("more.text") }} <Icon icon="pajamas:arrow-right" />
         </RouterLink>
       </div>
+    </Sections>
+
+    <!-- Contact -->
+    <Sections icon="heroicons:envelope-solid" title="Contact">
+      <template #title>
+        <h2>{{ $t("contact.section.title") }}</h2>
+      </template>
+      <Contact />
     </Sections>
   </main>
 </template>

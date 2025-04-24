@@ -4,6 +4,9 @@
     "projects": "Proyectos",
     "certificate": "Certificaciones"
   },
+  "more": {
+    "text": "Ver más"
+  },
   "hero": {
     "title": "Hola, soy ",
     "disponible": "Disponible para trabajar",
@@ -217,6 +220,18 @@
   "certifications": {
     "section": {
       "title": "Certificaciones"
+    }
+  },
+  "contact": {
+    "section": {
+      "title": "Contacto"
+    },
+    "form": {
+      "email": "Correo electrónico",
+      "name": "Nombre",
+      "message": "Mensaje",
+      "submit": "Enviar",
+      "placeholder": "Escribe tu mensaje aquí..."
     }
   }
 }
