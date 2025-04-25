@@ -2,7 +2,7 @@
 import { RouterLink, RouterView } from 'vue-router'
 //components
 import Navbar from '@/components/layout/Navbar.vue'
-
+import Footer from '@/components/layout/Footer.vue'
 </script>
 
 <template>
@@ -11,7 +11,8 @@ import Navbar from '@/components/layout/Navbar.vue'
     <Navbar />
   </header>
   <main>
-    <RouterView />
-  </main>
+      <RouterView />
+    </main>
   </div>
+  <Footer />
 </template>

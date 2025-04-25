@@ -233,5 +233,9 @@
       "submit": "Enviar",
       "placeholder": "Escribe tu mensaje aquí..."
     }
+  },
+  "footer": {
+    "copyright": "Copyright © 2025 - Casi todos los derechos reservados",
+    "inspo":"Inspirado en el portafolio de"
   }
 }

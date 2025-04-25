@@ -233,5 +233,9 @@
       "submit": "Submit",
       "placeholder": "Write your message here..."
     }
+  },
+  "footer": {
+    "copyright": "Copyright © 2025 - All rights reserved",
+    "inspo": "Inspired by the portfolio of"
   }
 }
