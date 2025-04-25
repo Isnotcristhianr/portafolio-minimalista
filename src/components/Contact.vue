@@ -1,5 +1,7 @@
 <script setup>
 import { ref } from "vue";
+//sweetalert2
+import Swal from "sweetalert2";
 
 const formData = ref({
   email: "",
@@ -7,8 +9,51 @@ const formData = ref({
   message: "",
 });
 
-const handleSubmit = () => {
+const handleSubmit = async () => {
   console.log(formData.value);
+
+  //formSubmit
+  try {
+    const response = await fetch("https://formsubmit.co/ajax/isnotcristhian@gmail.com", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(formData.value),
+    });
+
+    const data = await response.json();
+
+    if (response.ok) {
+      console.log("Form submitted successfully");
+      formData.value = {
+        email: "",
+        name: "",
+        message: "",
+      };
+      Swal.fire({
+        icon: "success",
+        title: "Form submitted successfully",
+      });
+    } else {
+      console.error("Form submission failed");
+      formData.value = {
+        email: "",
+        name: "",
+        message: "",
+      };
+      Swal.fire({
+        icon: "error",
+        title: "Form submission failed",
+      });
+    }
+  } catch (error) {
+    console.error(error);
+    Swal.fire({
+      icon: "error",
+      title: "Form submission failed",
+    });
+  }
 };
 </script>
 
