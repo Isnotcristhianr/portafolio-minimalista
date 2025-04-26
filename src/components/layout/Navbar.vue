@@ -21,7 +21,7 @@ const themeClass = computed(() => {
 //funcion para cambiar el idioma segun estado del toggle
 const toggleLanguage = () => {
   currentLanguage.value = !currentLanguage.value;
-  locale.value = currentLanguage.value ? "en" : "es";
+  locale.value = currentLanguage.value ? "es" : "en";
 };
 
 //fucnion para cambiar el tema segun estado del toggle
@@ -40,13 +40,21 @@ const toggleTheme = () => {
   >
     <div class="navbar-start">
       <div class="dropdown">
-        <div tabindex="0" role="button" class="btn btn-ghost btn-circle btn-sm">
+        <div 
+          tabindex="0" 
+          role="button" 
+          class="btn btn-ghost btn-circle btn-sm"
+          aria-label="Menú de navegación"
+          aria-expanded="false"
+          aria-haspopup="true"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="h-5 w-5"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
+            aria-hidden="true"
           >
             <path
               stroke-linecap="round"

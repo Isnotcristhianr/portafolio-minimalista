@@ -58,6 +58,13 @@ import { Vue3Marquee } from "vue3-marquee";
           src="/imgs/meGoogle.jpg"
           alt="about"
           class="rounded-lg shadow-2xl w-full transition-all duration-300 hover:scale-105"
+          width="384"
+          height="384"
+          loading="eager"
+          fetchpriority="high"
+          decoding="async"
+          style="mask-image: linear-gradient(black 50%, transparent); content-visibility: auto;"
+          
         />
       </div>
     </div>
